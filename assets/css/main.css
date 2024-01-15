@@ -12,6 +12,13 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+    --blue-1: #4263EB;
+    --blue-2: #2342C0;
+    --violet-1: #7048E8;
+    --violet-2: #5028C6;
+
+
+
     --error: var(--red);
     --success: var(--blue);
 
