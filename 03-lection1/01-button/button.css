@@ -1,63 +1,52 @@
 /* Стилизация кнопки */
 .button {
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-    border-radius: 10px;
-    border-width: 1px;
-    background-color: var(--black);
-    padding: 7px 35px;
-    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 15px 35px 14px;
     text-align: center;
     font-weight: 500;
-    font-size: 16pt;
+    font-size: 16px;
+    font-family: 'Roboto';
     line-height: 18.75px;
 }
 
-.button__primary {
+.button:disabled {
+    pointer-events: none;
+    opacity: 50%;
+}
+
+.button + .button {
+    margin-left: 10px;
+}
+
+.button_primary {
     background-color: var(--blue-1);
-    border-color: var(--blue-1);
     color: var(--white);
 }
 
-.button__primary:disabled {
-    cursor: default;
-    opacity: 50%;
-}
-
-.button__primary:hover:enabled {
+.button_primary:hover:enabled {
     background-color: var(--blue-2);
-    border-color: var(--blue-2);
     cursor: pointer;
 }
 
-.button__secondary {
+.button_secondary {
     background-color: var(--violet-1);
-    border-color: var(--violet-1);
     color: var(--white);
 }
 
-.button__secondary:disabled {
-    cursor: default;
-    opacity: 50%;
-}
-
-.button__secondary:hover:enabled {
+.button_secondary:hover:enabled {
     background-color: var(--violet-2);
-    border-color: var(--violet-2);
     cursor: pointer;
 }
 
-.button__alternate {
+.button_alternate {
     background-color: var(--white);
     border-color: var(--grey-3);
     color: var(--grey-4);
 }
 
-.button__alternate:disabled {
-    cursor: not-allowed;
-    opacity: 50%;
-}
-
-.button__alternate:hover:enabled {
+.button_alternate:hover:enabled {
     background-color: var(--white);
     border-color: var(--black);
     cursor: pointer;
