@@ -4,6 +4,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    font-family: 'Inter';
 }
 .accordeon__item {
     border-style: solid;
@@ -25,13 +26,12 @@
 .accordeon__summary {
     display: block;
     color: var(--black);
-    /*font-family: 'Inter';*/
 }
 
 .accordeon__article {
     color: var(--grey-4);
     margin-top: 16px;
-    /*font-family: 'Inter';*/
+    margin-bottom: 0px;
 }
 
 .accordeon__summary::-webkit-details-marker {
