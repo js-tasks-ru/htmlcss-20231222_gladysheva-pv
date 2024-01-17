@@ -16,10 +16,6 @@
     opacity: 50%;
 }
 
-.button + .button {
-    margin-left: 10px;
-}
-
 .button_primary {
     background-color: var(--blue-1);
     color: var(--white);
