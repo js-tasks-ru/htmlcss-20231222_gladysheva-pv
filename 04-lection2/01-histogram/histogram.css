@@ -15,16 +15,12 @@
 .histogram__header {
     display: flex;
     margin-bottom: 6px;
+    justify-content: space-between;
 }
 
-.histogram__headeritem {
-    flex-basis: 100%;
-}
-
-.histogram__headeritem_link {
+.histogram__link {
     color: var(--blue-1);
-    text-align: right;
-    /*padding-top: 3px;*/
+    margin-top: 3px;
 }
 
 .histogram__total {
