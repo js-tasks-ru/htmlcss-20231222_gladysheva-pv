@@ -1,25 +1,26 @@
 .skeleton {
-    border-style: solid;
+    border: solid 1px var(--grey-3);
     border-radius: 8px;
-    border-width: 1px;
-    border-color: var(--grey-3);
-    line-height: 24px;
     padding: 24px;
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
-    width: 579px;
 }
 
 .skeleton__item {
     background: linear-gradient(93deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
     height: 20px; 
-    flex-shrink: 0; 
-    margin-bottom: 8px;
+    flex-shrink: 0;
 }
 
-.skeleton__item_circle {
+.skeleton__circle {
     margin-right: 16px;
     margin-bottom: 24px;
+    width: 64px;
+    height: 64px;
     flex-shrink: 0;
+}
+
+.skeleton__item + .skeleton__item {
+    margin-top: 8px;
 }
