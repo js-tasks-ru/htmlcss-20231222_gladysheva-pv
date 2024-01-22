@@ -6,11 +6,11 @@
     flex-direction: column;
 }
 
-.wrapper_icon {
+.skeleton__wrapper {
     display: flex;
 }
 
-.wrapper_icon_text {
+.skeleton__wrapper_text {
     flex-basis: 100%;
 }
 
