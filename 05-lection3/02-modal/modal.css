@@ -1,6 +1,6 @@
 .modal {
     line-height: 24px;
-    /*font-family: 'Inter';*/
+    font-family: 'Inter';
     border-radius: 8px;
     background: var(--white);
     padding: 28px;
