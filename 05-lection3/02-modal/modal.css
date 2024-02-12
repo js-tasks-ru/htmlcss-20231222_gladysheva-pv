@@ -8,7 +8,7 @@
     display: none;
 }
 
-.modal_window {
+.modal__window {
     line-height: 24px;
     font-family: 'Inter';
     border-radius: 8px;
@@ -41,6 +41,6 @@
     right: 12px;
 }
 
-.modal__close :hover {
+.modal__close:hover {
     cursor: pointer;
 }
